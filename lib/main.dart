@@ -109,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 focusedBorder: UnderlineInputBorder(borderSide: BorderSide(color: Colors.white)),
                 labelStyle: TextStyle(color: Colors.white,fontSize: 14),
                 labelText: "Serial Portion Percentage"
-              ),
+              ), 
               keyboardType: TextInputType.number,
               onFieldSubmitted: (String d){
                 setState(() {
